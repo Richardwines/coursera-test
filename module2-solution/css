@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    font-family: Comic Sans MS;
+}
+section{
+    color: white;
+    font-size: 125%;
+}
+
+h1{
+    text-align: center;
+}
+
+
+#one{background-color: grey;border: 2px solid black;}
+#two{background-color: grey;border: 2px solid black;}
+#three{background-color: grey;border: 2px solid black;}
+
+header{float:right;
+    font-size: 175%;
+    
+    text-align: center;
+}
+
+.heading-1{
+    width:40%;
+    background-color: red;
+    border: 2px solid black;
+    border-right: 1px solid transparent ;
+    border-top: 1px solid transparent
+}
+.heading-2{width:40%;
+    background-color: rgb(21, 255, 0);
+    border: 2px solid black;
+    border-right: 1px solid transparent;
+    border-top: 1px solid transparent}
+
+.heading-3{width:40%;
+    background-color: rgb(55, 0, 255);
+    border: 2px solid black;
+    border-right: 1px solid transparent;
+    border-top: 1px solid transparent}
+
+     .col-md-4 {
+        
+        margin-right: 20px;
+        margin-top: 20px;
+        padding-right: 0px;
+    }
+
+    @media (min-width:992px){
+#one{width: 30%;position: relative;}
+#two{width: 30%;position: relative;}
+#three{width: 30%;position: relative;}
+    }
+
+    @media (min-width:768px) and (max-width:991px){
+
+#three{
+position: relative;
+margin: 0px;
+width:100%;
+margin:20px 0px 20px 0px;
+}
+
+#two{
+    position: relative;
+margin: 0px;
+width:50%;
+margin:20px 0px 20px 0px;
+}
+
+#one{
+    position: relative;
+margin: 0px;
+width:48%;
+margin:20px 0px 20px 0px;
+margin-right: 10px;
+}
+
+}
+
+
+    
+
+    @media (max-width:767px){
+    .container{display:block;}
+}
